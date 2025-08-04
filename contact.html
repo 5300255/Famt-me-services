@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Famtôme Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Famtôme Services</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Contactez-nous</h2>
+    <p>Remplissez le formulaire ou utilisez WhatsApp directement</p>
+  </section>
+
+  <section class="contact-form">
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Nom :</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="message">Message :</label>
+      <textarea name="message" id="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Numéro :</strong> +226 54 62 08 52</p>
+      <p><strong>Email :</strong> hyacintheaveribou27@gmail.com</p>
+      <a href="https://wa.me/22654620852" class="whatsapp-button" target="_blank">Discuter sur WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Famtôme Services</p>
+  </footer>
+</body>
+</html>
